@@ -1,1 +1,1 @@
-0-hello_world prints Hello, World to the stdout.
+This repository contains projects about system engineering devops
