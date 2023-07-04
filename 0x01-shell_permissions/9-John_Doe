@@ -1,0 +1,2 @@
+#!/bin/env
+chmod 753 hello
