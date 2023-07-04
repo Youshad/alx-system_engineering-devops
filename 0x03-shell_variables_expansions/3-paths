@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(IFS=':'; paths=($PATH); echo ${#paths[@]})"
+echo "$PATH" | tr ':' '\n' | grep -c '^/'
