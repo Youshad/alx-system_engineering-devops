@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $POWER / $DIVIDE | bc
+awk -v power="$POWER" -v divide="$DIVIDE" 'BEGIN {printf "%.2f\n", power / divide}'
